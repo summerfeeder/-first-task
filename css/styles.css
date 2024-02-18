@@ -554,3 +554,17 @@ div.main-box {
     background: #605DEC;
     float: left;
 }
+
+.third1-box-21 {
+    height: 200px;
+}
+
+.third1-box-22 > div{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.third1-box-22 > div + div > div{
+    height: 100px;
+}
