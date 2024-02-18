@@ -212,6 +212,7 @@ iframe {
 
 * pseudo */
 
+
 .test-box {
     background: #ccc;
     padding: 20px;
@@ -240,6 +241,11 @@ iframe {
 }
 
 /* float */
+
+.main div {
+    outline: 2px solid red;
+}
+
 .float-parent1 {
     background: green;
 }
@@ -304,10 +310,11 @@ div.main-box {
 }
 
 /* float */
-.first-box-float {
+.first-box-float cl{
     background: aqua;
     font-size: 25px;
     margin-top: 100px;
+    height: 400px;
 }
 .first-box-float > div {
     float: left;
@@ -523,4 +530,27 @@ div.main-box {
 
 .first-box-float {
     height: 400px;
+}
+
+.third-box-two-float > div {
+    float: left;
+    width: 800px;
+}
+
+.first-box-float > div{
+    height: 400px;
+    background: grey;
+}
+
+.third1-box-1 {
+    width: 400px;
+    height: 400px;
+    background: #E32636;
+    float: left;
+}
+
+.third1-box-2 {
+    width: 800px;
+    background: #605DEC;
+    float: left;
 }
