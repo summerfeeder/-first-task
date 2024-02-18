@@ -107,10 +107,6 @@ iframe {
     margin: 20px 0;
 }
 
-.main div {
-    outline: 2px solid red;
-}
-
 .first-box {
     background: aqua;
     font-size: 0px;
@@ -212,4 +208,300 @@ iframe {
     width: 400px;
     height: 100px;
     font-size: 20px;
+}
+
+* pseudo */
+
+.test-box {
+    background: #ccc;
+    padding: 20px;
+}
+
+.test-box::before {
+    content: 'BEFORE ';
+    color: red;
+    font-size: 30px;
+}
+.test-box::after {
+    content: 'AFTER ';
+    color: red;
+    font-size: 30px;
+}
+.list li {
+    padding: 10px;
+}
+
+.list li:nth-child(2) {
+    color: #ccc;
+}
+
+.list li::before {
+    content: '🐟  + ';
+}
+
+/* float */
+.float-parent1 {
+    background: green;
+}
+/*.float-parent > div {
+    outline: 2px solid red;
+}
+*/
+ */
+.float-child {
+    width: 300px;
+    float: left;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.text {
+    font-size: 30px;
+    background: #ccc;
+    padding: 20px;
+}
+.text img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* blockS */
+div.main-box {
+    margin: 20px auto;
+}
+
+.first-box {
+    background: orange;
+    font-size: 0;
+}
+
+.first-box > div {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+}
+.second-box {
+    font-size: 0;
+    background: blue;
+}
+.second-box > div {
+    display: inline-block;
+    font-size: 20px;
+    width: 800px;
+}
+.second-box > div + div {
+    width: 400px;
+}
+.second-box-one > div {
+    height: 200px;
+}
+.second-box-two > div {
+    height: 133.333px;
+}
+
+/* float */
+.first-box-float {
+    background: aqua;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.first-box-float > div {
+    float: left;
+    width: 400px;
+
+}
+
+.second-box-float {
+    background: green;
+    font-size: 25px;
+}
+.second-box-float > div {
+    float: left;
+    width: 800px;
+
+}
+
+.second-box-float > div+div{
+    float: left;
+    width: 400px;
+
+}
+
+.second-box-one-float > div{
+    height: 200px;
+    background: #ffff00;
+
+}
+
+.third-box-one-float > div{
+    background: orange;
+
+}
+
+.third-box-two-float > div{
+    background: orangered;
+
+}
+
+.third-box-three-float > div{
+    background: orchid;
+
+}
+
+.third-box-for-float > div{
+    background: brown;
+
+}
+
+.second-box-two-float > div{
+    height: 133.333333333px;
+}
+
+.third-box-float {
+    background: #00ffff;
+    font-size: 25px;
+    background: orange;
+}
+.third-box-float > div {
+    float: left;
+    width: 400px;
+
+}
+
+/* CARDS */
+
+.header {
+    background: #000;
+    color: aliceblue;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    font-size: 0;
+}
+
+.header-logo {
+    width: 100px;
+    font-size: 30px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header-list {
+    display: inline-block;
+    width: 1100px;
+    font-size: 0;
+    text-align: right;
+}
+
+.header-list li {
+    display: inline-block;
+}
+.header-list li + li {
+    margin-left: 60px;
+}
+.header-list li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.header-list li a:focus {
+    color: #505050;
+}
+.header-list li a:hover {
+    color: orangered;
+}
+.header-list li a:active {
+    color: blue;
+}
+
+/* CARDS */
+
+.cards-section {
+    padding: 50px 0;
+}
+
+.cards-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards {
+    background: #ccc;
+}
+
+.card {
+    width: 240px;
+    padding: 5px 10px 25px;
+    border-right: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    font-size: 16px;
+    vertical-align: top;
+    float: left;
+}
+/* .card:nth-child(3n+1) {
+	background: orange;
+} */
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+/* .card:nth-child(odd) {
+	background: green;
+}  */
+/* .card:first-child {
+	background: orange;
+}
+.card:last-child {
+	background: green;
+}
+.card:nth-child(3) {
+	background: blue;
+}
+.card:nth-child(3) a {
+	color: yellowgreen;
+} */
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin: 0 0 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.card-desc {
+    margin: 0 0 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.first-box-float {
+    height: 400px;
 }
