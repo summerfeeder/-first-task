@@ -337,6 +337,18 @@ div.main-box {
 
 }
 
+.third-box-three-float > div {
+    float: left;
+    width: 400px;
+
+}
+
+.third-box-for-float > div {
+    float: left;
+    width: 400px;
+
+}
+
 .second-box-one-float > div{
     height: 200px;
     background: #ffff00;
@@ -361,7 +373,7 @@ div.main-box {
 
 .third-box-for-float > div{
     background: brown;
-    height: 133.33333333px;
+    height: 100px;
 }
 
 .second-box-two-float > div{
