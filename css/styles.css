@@ -244,6 +244,7 @@ iframe {
 
 .main div {
     outline: 2px solid red;
+    font-size: 50px;
 }
 
 .float-parent1 {
@@ -570,3 +571,4 @@ div.main-box {
     height: 100px;
     background: #31AA27;
 }
+
