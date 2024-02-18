@@ -567,6 +567,10 @@ div.main-box {
 }
 
 .third1-box-22 > div + div > div{
+
+}
+
+.p22 div {
     height: 100px;
     background: #31AA27;
 }
