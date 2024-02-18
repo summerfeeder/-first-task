@@ -563,8 +563,10 @@ div.main-box {
     float: left;
     width: 400px;
     height: 200px;
+    background: #E99518;
 }
 
 .third1-box-22 > div + div > div{
     height: 100px;
+    background: #31AA27;
 }
