@@ -331,7 +331,11 @@ div.main-box {
 
 }
 
+.third-box-two-float > div {
+    float: left;
+    width: 800px;
 
+}
 
 .second-box-one-float > div{
     height: 200px;
