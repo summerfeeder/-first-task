@@ -331,6 +331,8 @@ div.main-box {
 
 }
 
+
+
 .second-box-one-float > div{
     height: 200px;
     background: #ffff00;
@@ -339,22 +341,23 @@ div.main-box {
 
 .third-box-one-float > div{
     background: orange;
+    height: 400px;
 
 }
 
 .third-box-two-float > div{
     background: orangered;
-
+    height: 200px;
 }
 
 .third-box-three-float > div{
     background: orchid;
-
+    height: 200px;
 }
 
 .third-box-for-float > div{
     background: brown;
-
+    height: 133.33333333px;
 }
 
 .second-box-two-float > div{
