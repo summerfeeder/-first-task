@@ -247,14 +247,21 @@ body {
 	margin: 50px 0px 100px 0px;
 }
 .portfolio-card {
-
 	flex: 1 1 30%;
 	border: 1px solid #EEE;
 	background: #FFF;
+	text-align: left;
 }
+
+.portfolio-card-in1 {
+	padding: 20px 24px;
+}
+
 .portfolio-card-image {
 	width: 100%;
 	height: 294px;
+	object-fit: cover;
+	margin-bottom: 10px;
 }
 .portfolio-card-title {
 	color: #212121;
@@ -380,7 +387,76 @@ a {
 	letter-spacing: 0.48px;
 }
 
-.menu-switching button:active {
+.menu-switching button:hover {
 	color: #FFFFFF;
 	background: #2196F3;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.first-box {
+	display: flex;
+}
+
+.first-box div{
+	width: 400px;
+	height: 400px;
+	outline: 2px solid indianred;
+	background: #757575;
+}
+
+.second-box-one div{
+	width: 800px;
+	height: 200px;
+
+}
+.second-box-two {
+	width: 400px;
+}
+
+.second-box-two div{
+	width: 400px;
+	height: 133.33px;
+}
+.second-box {
+	display: flex;
+	background: chartreuse;
+}
+
+.second-box div{
+	outline: 2px solid olive;
+}
+
+.third1-box {
+	display: flex;
+	background: darkslategrey;
+}
+.third1-box div {
+	outline: 2px solid blueviolet;
+}
+
+.third1-box-1 {
+	width: 400px;
+	height: 400px;
+}
+
+.third1-box-21 {
+	width: 800px;
+	height: 200px;
+	display: flex;
+}
+
+.third1-box-22 {
+	width: 800px;
+	height: 200px;
+	display: flex;
+}
+
+.p21 {
+	width: 400px;
+	height: 200px;
+}
+
+.p22 {
+	width: 400px;
+	height: 100px;
 }
