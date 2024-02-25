@@ -395,6 +395,7 @@ a {
 
 .first-box {
 	display: flex;
+	width: 1200px;
 }
 
 .first-box div{
@@ -404,10 +405,19 @@ a {
 	background: #757575;
 }
 
+.second-box {
+	width: 1200px;
+}
+
 .second-box-one div{
 	width: 800px;
 	height: 200px;
 
+}
+
+.second-box-one {
+	width: 800px;
+	height: 200px;
 }
 .second-box-two {
 	width: 400px;
@@ -430,6 +440,11 @@ a {
 	display: flex;
 	background: darkslategrey;
 }
+
+.third1-box {
+	width: 1200px;
+}
+
 .third1-box div {
 	outline: 2px solid blueviolet;
 }
@@ -460,3 +475,4 @@ a {
 	width: 400px;
 	height: 100px;
 }
+
