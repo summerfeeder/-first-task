@@ -95,11 +95,20 @@ html, body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
 
 /* !GLOBAL */
 body {
-    font-family: "Roboto", sans-serif;
     color: #212121;
     letter-spacing: .9px;
     /* font-weight: 400;
@@ -620,6 +629,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+
 }
 
 .header-list a {
@@ -629,6 +639,8 @@ body {
     padding: 10px 20px;
     background: orange;
     display: block;
+    font-size: 30px;
+    font-family: "Open Sans";
 }
 
 .header-list li {
@@ -649,16 +661,19 @@ body {
 
 .header-second-list a {
     background: red;
+    font-family: "Roboto";
 }
 
 .header-third-list {
     position: absolute;
     right: 100%;
     display: none;
+    top: -20px;
 }
 
 .header-third-list a {
     background: green;
+    font-family: "Montserrat";
 }
 
 .header-second-list li:hover .header-third-list {
