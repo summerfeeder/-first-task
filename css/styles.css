@@ -629,7 +629,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-
+    white-space: nowrap;
 }
 
 .header-list a {
@@ -668,7 +668,7 @@ body {
     position: absolute;
     right: 100%;
     display: none;
-    top: -20px;
+    top: -0px;
 }
 
 .header-third-list a {
