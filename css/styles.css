@@ -827,6 +827,44 @@ body {
     background: url('../images/camera-svgrepo-com.svg') no-repeat 50% / 30px;
 }
 
+.main {
+    height: 500px;
+    background: lightblue;
+}
+
+.icon-footer {
+    height: 60px;
+    background: olive;
+    display: flex;
+}
+
+.icon-footer-list li {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-footer-list {
+    padding: 7%;
+    display: flex;
+}
+
+.facebook {
+    background: url('../images/facebook-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.twitter {
+    background: url('../images/twitter-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.telegram {
+    background: url('../images/telegram-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.instagram {
+    background: url('../images/instagram-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
 /* BLOCK */
 .flex {
     display: flex;
