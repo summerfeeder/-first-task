@@ -104,7 +104,6 @@ html, body {
 }
 
 
-
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
 
 /* !GLOBAL */
@@ -636,11 +635,15 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: aliceblue;
-    padding: 10px 20px;
+    padding: 10px;
     background: orange;
     display: block;
     font-size: 30px;
     font-family: "Open Sans";
+}
+
+.header-list a {
+
 }
 
 .header-list li {
@@ -747,6 +750,82 @@ body {
 .header-btn {
 }
 
+
+.link1 {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link1::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/collect-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.link2 {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link2::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/video-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.link3 {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link3::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/laptop-svgrepo-com.svg') no-repeat 50% / 30px;
+}
+
+.link4 {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link4::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/camera-svgrepo-com.svg') no-repeat 50% / 30px;
+}
 
 /* BLOCK */
 .flex {
