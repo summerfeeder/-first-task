@@ -635,10 +635,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: aliceblue;
-    padding: 10px;
+    padding: 5px 30px;
     background: orange;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Open Sans";
 }
 
@@ -763,8 +763,8 @@ body {
 .link1::before {
     content: '';
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: -1px;
     width: 30px;
     height: 30px;
     background: url('../images/collect-svgrepo-com.svg') no-repeat 50% / 30px;
@@ -782,8 +782,8 @@ body {
 .link2::before {
     content: '';
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: -1px;
     width: 30px;
     height: 30px;
     background: url('../images/video-svgrepo-com.svg') no-repeat 50% / 30px;
@@ -801,8 +801,8 @@ body {
 .link3::before {
     content: '';
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: -1px;
     width: 30px;
     height: 30px;
     background: url('../images/laptop-svgrepo-com.svg') no-repeat 50% / 30px;
@@ -820,8 +820,8 @@ body {
 .link4::before {
     content: '';
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: -1px;
     width: 30px;
     height: 30px;
     background: url('../images/camera-svgrepo-com.svg') no-repeat 50% / 30px;
